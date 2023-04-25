@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953965770958",
+    "project_id": "cosa-77263",
+    "storage_bucket": "cosa-77263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953965770958:android:17159b936d7fc18854789f",
+        "android_client_info": {
+          "package_name": "com.example.rodriguez_celis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953965770958-bbdh23k6p7g96u8thkj4su0au87sh5p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJbRCJgSFwYqvvRvXRY_8i90r-hZH-Bw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953965770958-bbdh23k6p7g96u8thkj4su0au87sh5p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
