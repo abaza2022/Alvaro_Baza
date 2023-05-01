@@ -7,37 +7,41 @@
     tools:context=".FormularioActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et_nombre_formulario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Nombre"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="218dp" />
+        tools:layout_editor_absoluteY="220dp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/et_precio_formulario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
+        android:text="Precio"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="353dp" />
+        tools:layout_editor_absoluteY="300dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <EditText
+        android:id="@+id/et_imagen_formulario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="36dp"
-        tools:src="@tools:sample/avatars" />
+        android:ems="10"
+        android:inputType="text"
+        android:text="URL Imagen"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="380dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_guardar_formulario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:onClick="clickGuardar"
+        android:text="Guardar"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="488dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
