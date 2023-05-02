@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="color_unab">#F79800</color>
+    <color name="color_unab_secundario">#D6962F</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="unab">#F79800</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Rodriguez_celis</string>
+    <string name="default_web_client_id" translatable="false">953965770958-bbdh23k6p7g96u8thkj4su0au87sh5p1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">953965770958</string>
+    <string name="google_api_key" translatable="false">AIzaSyDJbRCJgSFwYqvvRvXRY_8i90r-hZH-Bw4</string>
+    <string name="google_app_id" translatable="false">1:953965770958:android:17159b936d7fc18854789f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDJbRCJgSFwYqvvRvXRY_8i90r-hZH-Bw4</string>
+    <string name="google_storage_bucket" translatable="false">cosa-77263.appspot.com</string>
+    <string name="project_id" translatable="false">cosa-77263</string>
+    <string name="txt_agregar_producto">Agregar Producto</string>
+    <string name="txt_detalle">Detalle Producto</string>
+    <string name="txt_eliminar">Eliminar</string>
+    <string name="txt_iniciar_sesion">Iniciar Sesion</string>
+    <string name="txt_listado_productos">Tienda Don Chepe Fortuna</string>
+    <style name="Theme.LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/color_unab</item>
+        <item name="colorPrimaryVariant">@color/color_unab_secundario</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.Rodriguez_celis" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/color_unab</item>
+        <item name="colorPrimaryVariant">@color/color_unab_secundario</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
